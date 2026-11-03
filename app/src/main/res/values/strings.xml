@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EquinoxTrack</string>
+    <string name="widget_balance">Balance</string>
+    <string name="widget_balance_desc">Your total available balance at a glance</string>
+    <string name="widget_safe">Safe to spend</string>
+    <string name="widget_safe_desc">Today\'s spending allowance after bills and goals</string>
+    <string name="widget_summary">Monthly summary</string>
+    <string name="widget_summary_desc">Income, expenses and remaining budget this month</string>
+    <string name="widget_actions">Quick actions</string>
+    <string name="widget_actions_desc">Add an expense, income or transfer in one tap</string>
+</resources>
