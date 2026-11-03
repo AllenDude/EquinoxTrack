@@ -35,6 +35,11 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          # The action's default list includes the retired "tools" package, which newer
+          # sdkmanager versions can no longer find. Install only what this project needs.
+          packages: 'platform-tools platforms;android-35 build-tools;35.0.0'
+          log-accepted-android-sdk-licenses: false
 
       - name: Set up Gradle (with caching)
         uses: gradle/actions/setup-gradle@v4
